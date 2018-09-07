@@ -13,7 +13,7 @@ namespace MyShop.Core.Model
         public string Id{ get; set; }
 
         [StringLength(20)]
-        [DisplayName("NOme do produto")]
+        [DisplayName("Nome do produto")]
         public string Name{ get; set; }
 
         public string Description{ get; set; }
