@@ -8,9 +8,8 @@ using System.Threading.Tasks;
 
 namespace MyShop.Core.Model
 {
-    public class Product
+    public class Product : BaseEntity
     {
-        public string Id{ get; set; }
 
         [StringLength(20)]
         [DisplayName("Nome do produto")]
