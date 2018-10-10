@@ -15,7 +15,7 @@ namespace MyShop.DataAccess
         {
         }
 
-        public DbSet<Product> products { get; set; }  
-        public DbSet<ProductCategory> productCategories { get; set; }  
+        public DbSet<Product> Products { get; set; }  
+        public DbSet<ProductCategory> ProductCategories { get; set; }  
     }
 }
