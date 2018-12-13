@@ -115,7 +115,7 @@ namespace MyShop.Services
                                 on b.ProductId equals p.Id
                               select new BasketItemViewModel()
                               {
-                                  Id = p.Id,
+                                  Id = b.Id,
                                   Image = p.Image,
                                   Price = p.Price,
                                   ProductName = p.Name,
